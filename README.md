@@ -46,6 +46,11 @@ The project requirements are to create and deploy a data centric web application
 
 ## Bugs and Fixes
 
+| Bug | Cause | Solution | Result |
+|-----|-------|---------|--------|
+| CSS test page (/css_test/) returned 404 and CSS did not load | URL path mismatch in Django routing (css_test/ vs /css-test/) | Fixed smoothies/urls.py to use path(css_test/, views.css_test, name=css_test); ensured base.html loads static CSS and style.css exists in static/css/ | Page loads successfully and CSS background-color: is applied |
+|  |  |  |  |
+
 ## Credits
 
 **Youtube tutorial Django Recipe Sharing Tutorial by Dom Vacchiano. I used this video as a guide along with my own code, some python conventions and patterns used are 
