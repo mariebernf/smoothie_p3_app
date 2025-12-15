@@ -5,4 +5,33 @@
 
     <p>Discover and share delicious smoothie recipes with our community. By signing up, you can unlock full features: View other members smoothie recipes, 
        and add, edit and delete your own recipes. Join us today and explore healthy and tasty smoothies!</p>
+
+    <a href="{% url 'smoothie_create' %}" class="btn btn-success mb-3">Add Smoothie</a>
+
+    <div class="row">
+    {% for smoothie in smoothies %}   
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">{{ smoothie.title }}</h5>
+                <p class="card-text">{{ smoothie.description|truncatewords:20 }}</p>
+
+                {% if user.is_authenticated %}
+                    <p><strong>Ingredients:</strong>{{ smoothie.ingredients }}</p>
+                {% else %}
+                    <p class="text-muted"><em>Login to see ingredients.</em></p>
+                {% endif %} 
+
+                <p class="card-text text-muted">By {{ smoothie.author.username }}</p>
+
+                {% if user == smoothie.author %}
+                    <span class="badge bg-success mb-2">Your smoothie</span><br>
+                    <a href="{% url 'smoothie_update' smoothie.id %}" class="btn btn-sm btn-primary">Edit</a>
+                    <a href="{% url 'smoothie_delete' smoothie.id %}" class="btn btn-sm btn-danger">Delete</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
 {% endblock %}
