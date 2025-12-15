@@ -3,11 +3,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CSS Test</title>
-
+    <title>Smoothie Share</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h1>CSS TEST PAGE</h1>
+
+    <header>
+        <h1>Smoothie Share</h1>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>Smoothie Share</p>
+    </footer>
+
 </body>
 </html>
