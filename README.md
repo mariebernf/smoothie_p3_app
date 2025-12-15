@@ -53,6 +53,9 @@ The project requirements are to create and deploy a data centric web application
 | Server failed to start when loading smoothie views. | SmoothieForm was imported in views.py before forms.py existed in the smoothies app. | Created forms.py in the correct app directory and defined SmoothieForm. | Server starts successfully and smoothie views loads correctly. |
 |  |  |  | |
 | Footer was in the middle of the page. | Page layout did not push footer to the bottom of the page.  | Added flex layout to body and main in CSS. | Footer stays at the bottom of the page. |
+|  |  |  | |
+| Testing add smoothie while not logged in caused 404. | LOGIN_URL not set in settings.py.  | Added LOGIN_URL = '/login/' in settings.py. | Non logged in users are now redirected to the login page. |
+
 
 
 
