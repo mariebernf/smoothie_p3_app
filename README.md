@@ -50,7 +50,10 @@ The project requirements are to create and deploy a data centric web application
 |-----|-------|---------|--------|
 | CSS test page (/css_test/) returned 404 and CSS did not load. | URL path mismatch in Django routing (css_test/ vs /css-test/). | Fixed smoothies/urls.py to use path(css_test/, views.css_test, name=css_test); ensured base.html loads static CSS and style.css exists in static/css/. | Page loads successfully and CSS background-color is applied. |
 |  |  |  | |
-| Server failed to start when loading smoothie views. | SmoothieForm was imported in views.py before forms.py existed in the smoothies app. | Created forms.py in the correct app directory and defined SmoothieForm. | Server starts successfully and smoothie views load correctly. |
+| Server failed to start when loading smoothie views. | SmoothieForm was imported in views.py before forms.py existed in the smoothies app. | Created forms.py in the correct app directory and defined SmoothieForm. | Server starts successfully and smoothie views loads correctly. |
+|  |  |  | |
+| Footer was in the middle of the page. | Page layout did not push footer to the bottom of the page.  | Added flex layout to body and main in CSS. | Footer stays at the bottom of the page. |
+
 
 
 ## Credits
