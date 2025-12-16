@@ -55,6 +55,9 @@ The project requirements are to create and deploy a data centric web application
 | Footer was in the middle of the page. | Page layout did not push footer to the bottom of the page.  | Added flex layout to body and main in CSS. | Footer stays at the bottom of the page. |
 |  |  |  | |
 | Testing add smoothie while not logged in caused 404. | LOGIN_URL not set in settings.py.  | Added LOGIN_URL = '/login/' in settings.py. | Non logged in users are now redirected to the login page. |
+|  |  |  | |
+| Navbar and footer disappeared when preparing for deployment. | STATICFILES_FILES pointed to the wrong static directory.  | Updated STATICFILES_DIRS to reference the root static folder. | CSS loads correctly and navbar and footer display as expected. |
+
 
 
 
