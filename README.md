@@ -57,10 +57,13 @@ The project requirements are to create and deploy a data centric web application
 | Testing add smoothie while not logged in caused 404. | LOGIN_URL not set in settings.py.  | Added LOGIN_URL = '/login/' in settings.py. | Non logged in users are now redirected to the login page. |
 |  |  |  | |
 | Navbar and footer disappeared when preparing for deployment. | STATICFILES_FILES pointed to the wrong static directory.  | Updated STATICFILES_DIRS to reference the root static folder. | CSS loads correctly and navbar and footer display as expected. |
-
-
-
-
+|  |  |  | |
+| App crashed on deployment. | Database not migrated on Heroku.  | Configured database for Heroku, added postgreSQL and ran migrations. | App loads successfully. |
+|  |  |  | |
+| 500 error page. | Tables not created in production.  | Applied migrations. | Pages display correctly. |
+|  |  |  | |
+| Python version mismatch on Heroku. | Heroku default Python version.  | Specified Python version. | Heroku uses correct Python version. |
+|  |  |  | |
 
 ## Credits
 
