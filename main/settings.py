@@ -30,8 +30,7 @@ DEBUG = os.getenv('DEBUG') == 'True'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = ['*']
-
+ALLOWED_HOSTS = ['smoothie-p3-app.herokuapp.com', 'localhost']
 
 # Application definition
 
