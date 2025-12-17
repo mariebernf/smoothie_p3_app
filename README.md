@@ -1,6 +1,6 @@
 # smoothie_p3_app
 
-View here: 
+View here:[Smoothie Share P3 App](https://smoothie-p3-app-880029449dda.herokuapp.com/)
 
 ## Description
 
@@ -26,13 +26,69 @@ The project requirements are to create and deploy a data centric web application
 
 ## Design
 
+The design of the Smoothie Share app focuses on clarity and accessibility with a modern and minimalist layout. It is kept simple with a strong contrast between black and white, making the content easy to read while the buttons have colour to make key actions stand out.
+
+<img src="docs/screenshots/homepagescreens.jpg" width="250px" />
+<br>
+<img src="docs/screenshots/editscreenshot.jpg" width="250px" />
+<br>
+<img src="docs/screenshots/loginfooter.jpg" width="250px" />
+
 ### Database Schema
 
-### Colour scheme
+User ( Django default ):
+
+| Field        | Type       | Purpose                                |
+| ------------ | ---------- | -------------------------------------- |
+| id           | Integer    | Unique identifier for each user        |
+| username     | CharField  | Used for user authentication           |
+| email        | EmailField | Stores the user’s email address        |
+| password     | Hashed     | Securely stores the user’s password    |
+| is_staff     | Boolean    | Allows access to the admin panel       |
+| is_superuser | Boolean    | Grants full administrative permissions |
+
+Smoothie model:
+
+| Field        | Type              | Purpose                                       |
+| ------------ | ----------------- | --------------------------------------------- |
+| id           | Integer           | Unique identifier for each smoothie           |
+| title        | CharField         | Name of the smoothie recipe                   |
+| description  | TextField         | Description of the smoothie                   |
+| ingredients  | TextField         | Ingredients required for the smoothie         |
+| author       | ForeignKey (User) | Links the smoothie to the user who created it |
+| date_created | DateTimeField     | Automatically stores the creation date        |
+
+
+
+### Colour Scheme
+
+| Element | Colour | Purpose | 
+|------------|----------------|----------------|
+| Navbar background | Black (#000000)  | Strong contrast, clean and modern look. | 
+| Navbar text and buttons | White (#FFFFFF) | High readability against black. | 
+| Footer background |  Black (#000000) | Matches the Navbar. |  
+| Page background | White (#FFFFFF) | Clean and makes the content easy to read. | 
+
+### Button Styling
+
+| Element | Colour | Purpose | 
+|------------|----------------|----------------|
+| Add Smoothie  | Green  | Indicates a positive action. | 
+| Edit button | Blue | Standard action for editing content. | 
+| Delete button | Red | Brings attention to a destructive action. | 
+
 
 ### Typography
 
+* Primary Font: Montserrat from Google Fonts.
+
+* Fallback Font: sans-serif for Montserrat in case it doesn't load.
+
+* Montserrat is clean and great for readability. It complements the minimalist colour of the website.
+
 ### Wireframe
+
+You can view the wireframes for both mobile and larger screens [here](wireframes.md).
 
 ## Technologies used
 
