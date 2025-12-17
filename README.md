@@ -88,7 +88,7 @@ Smoothie model:
 
 ### Wireframe
 
-You can view the wireframes for both mobile and larger screens [here](wireframes.md).
+You can view the wireframes for both mobile and larger screens [here](docs/wireframes.md)
 
 ## Technologies used
 
