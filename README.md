@@ -103,11 +103,54 @@ Smoothie model:
 
 You can view the wireframes for both mobile and larger screens [here](docs/wireframes.md)
 
-## Technologies used
+## Technologies Used
 
-## Tools used
+- **Django** – Backend web framework  
+- **Python** – Programming language  
+- **HTML / CSS** – Frontend structure and styling  
+- **Bootstrap** – Responsive layout and design  
+- **Git** – Version control  
+- **Heroku** – Deployment platform  
+
+## Tools Used
+
+- **GitHub** – Platform for hosting code repositories  
+- **Django Admin** – Used to manage application content  
+- **Chrome DevTools** – Used to inspect elements, debug, and troubleshoot  
+- **Google Fonts** – Used for custom typography  
+- **VS Code** – Code editor used to write and manage the project  
 
 ## Deployment
+
+### Deployment Steps
+
+1. Prepare the Django application by adding a Procfile and configuring **Gunicorn**.
+2. Set environment variables for the **SECRET_KEY** and **DEBUG**.
+3. Create a new Heroku application.
+4. Link the GitHub repository to the Heroku app.
+5. Add a PostgreSQL database and run migrations.
+6. Deploy the application and access it using heroku open.
+
+The deployed site can be accessed via the Heroku URL.
+
+---
+
+## Forking the Repository
+
+1. Log in to **GitHub**.
+2. Navigate to the repository.
+3. Click the **Fork** button located at the top right of the page.
+4. A copy of the repository will be created in your own GitHub account.
+5. You can view and make changes without affecting the original repository.
+
+---
+
+## Cloning the Repository
+
+1. Choose a location on your machine where you want to store the cloned repository.
+2. Open your terminal or command prompt.
+3. Run the following command: git clone https://github.com/your-username/your-repository-name.git
+
 
 ## Testing
 
