@@ -22,7 +22,20 @@ The project requirements are to create and deploy a data centric web application
 
 ## Features
 
+- **User Authentication** – Users can sign up, log in, and log out.  
+- **CRUD Operations** – Users can create, view, edit, and delete their smoothie recipes.  
+- **Smoothie List** – View all smoothies shared by other users.  
+- **Access Control** – Only the user who created a smoothie recipe can edit or delete it.  
+- **Ingredient Visibility** – Only logged-in users can see smoothie ingredients, encouraging non-members to sign up.  
+
 ## Future Features
+
+- **User Profiles** – A profile page for each user.  
+- **Recipe Images** – Users can upload images for their smoothie recipes.  
+- **Saved Recipes** – Users can save other users smoothie recipes to their profile.  
+- **Ratings & Comments** – Users can rate and comment on other users recipes.  
+- **UI/UX Improvements** – Enhance overall design and user experience of the application.  
+
 
 ## Design
 
