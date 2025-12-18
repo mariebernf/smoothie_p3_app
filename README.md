@@ -156,6 +156,17 @@ The deployed site can be accessed via the Heroku URL.
 
 ### Lighthouse Reports
 
+Lighthouse testing was carried out using Google Chrome DevTools to assess the performance, accessibility, best practices, and SEO of the Smoothie Share application.
+
+Tests were conducted on both mobile and desktop views for key pages to ensure responsiveness and usability across devices.
+
+### Pages Tested
+- Home page (mobile and desktop).
+- Sign up page (mobile and desktop).
+- User smoothie page (mobile and desktop).
+
+Screenshots of the Lighthouse reports can be found here [Lighthouse Reports](./lighthouse_reports.md).
+
 ### W3C Markup Validation
 
 ### W3C CSS Validator
