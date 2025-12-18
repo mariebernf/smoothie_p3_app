@@ -123,7 +123,7 @@ You can view the wireframes for both mobile and larger screens [here](docs/wiref
 
 The Home page was tested for responsiveness using browser developer tools. Testing was carried out on, mobile, tablet and desktop screen sizes. On Chrome, Edge and Firefox browsers.
 The layout adapts correctly across all tested screen sizes and browsers. <br>
-Find the screenshots of the responsive testing here: [RESPONSIVE_TESTING.md](docs/responsivescreen/RESPONSIVE_TESTING.md).
+Find the screenshots of the responsive testing here: [Responsive Testing Screenshots](docs/responsivescreen/responsive_testing.md).
 
 **Features:**
 
