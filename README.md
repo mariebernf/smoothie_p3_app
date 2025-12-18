@@ -111,13 +111,19 @@ You can view the wireframes for both mobile and larger screens [here](docs/wiref
 
 ## Testing
 
-## Lighthouse reports: 
+### Lighthouse Reports
 
-## W3C Markup Validation
+### W3C Markup Validation
 
-## W3C CSS Validator
+### W3C CSS Validator
 
-**Manual testing:**
+### Manual Testing
+
+#### Responsive Design Testing
+
+The Home page was tested for responsiveness using browser developer tools. Testing was carried out on, mobile, tablet and desktop screen sizes. On Chrome, Edge and Firefox browsers.
+The layout adapts correctly across all tested screen sizes and browsers. <br>
+Find the screenshots of the responsive testing here: [RESPONSIVE_TESTING.md](docs/responsivescreen/RESPONSIVE_TESTING.md).
 
 **Features:**
 
