@@ -103,11 +103,54 @@ Smoothie model:
 
 You can view the wireframes for both mobile and larger screens [here](docs/wireframes.md)
 
-## Technologies used
+## Technologies Used
 
-## Tools used
+- **Django** – Backend web framework  
+- **Python** – Programming language  
+- **HTML / CSS** – Frontend structure and styling  
+- **Bootstrap** – Responsive layout and design  
+- **Git** – Version control  
+- **Heroku** – Deployment platform  
+
+## Tools Used
+
+- **GitHub** – Platform for hosting code repositories  
+- **Django Admin** – Used to manage application content  
+- **Chrome DevTools** – Used to inspect elements, debug, and troubleshoot  
+- **Google Fonts** – Used for custom typography  
+- **VS Code** – Code editor used to write and manage the project  
 
 ## Deployment
+
+### Deployment Steps
+
+1. Prepare the Django application by adding a Procfile and configuring **Gunicorn**.
+2. Set environment variables for the **SECRET_KEY** and **DEBUG**.
+3. Create a new Heroku application.
+4. Link the GitHub repository to the Heroku app.
+5. Add a PostgreSQL database and run migrations.
+6. Deploy the application and access it using heroku open.
+
+The deployed site can be accessed via the Heroku URL.
+
+---
+
+## Forking the Repository
+
+1. Log in to **GitHub**.
+2. Navigate to the repository.
+3. Click the **Fork** button located at the top right of the page.
+4. A copy of the repository will be created in your own GitHub account.
+5. You can view and make changes without affecting the original repository.
+
+---
+
+## Cloning the Repository
+
+1. Choose a location on your machine where you want to store the cloned repository.
+2. Open your terminal or command prompt.
+3. Run the following command: git clone https://github.com/your-username/your-repository-name.git
+
 
 ## Testing
 
@@ -119,11 +162,22 @@ You can view the wireframes for both mobile and larger screens [here](docs/wiref
 
 ### Manual Testing
 
-#### Responsive Design Testing
+| Feature | Test Action | Expected Result | Actual Result | Pass/Fail |
+|--------|------------|-----------------|---------------|-----------|
+| Sign up form. | User completes the sign-up form with valid details. | User account is created. | Works as expected. | Pass. |
+| Login. | User enters valid login credentials. | User is logged in and redirected to homepage. | Works as expected. | Pass. |
+| Add smoothie recipe. | Logged-in user submits a new smoothie recipe. | Recipe is created and displayed on the site. | Works as expected. | Pass. |
+| Save smoothie recipe. | Logged-in user saves their smoothie. | Recipe is stored and visible. | Works as expected. | Pass. |
+| Edit smoothie recipe. | Logged-in user edits their own smoothie. | Updated recipe is saved and displayed. | Works as expected. | Pass. |
+| Delete smoothie recipe. | Logged-in user deletes their own smoothie. | Recipe is removed from the site. | Works as expected. | Pass. |
+| View other users smoothies. | Logged-in user views other users smoothie ingredients. | Smoothie ingredients are visible. | Works as expected. | Pass. |
+| Logout. | Logged-in user clicks logout. | User is logged out and redirected. | Works as expected. | Pass. |
+
+### Responsive Design Testing
 
 The Home page was tested for responsiveness using browser developer tools. Testing was carried out on, mobile, tablet and desktop screen sizes. On Chrome, Edge and Firefox browsers.
 The layout adapts correctly across all tested screen sizes and browsers. <br>
-Find the screenshots of the responsive testing here: [RESPONSIVE_TESTING.md](docs/responsivescreen/RESPONSIVE_TESTING.md).
+Find the screenshots of the responsive testing here: [Responsive Testing Screenshots](docs/responsivescreen/responsive_testing.md).
 
 **Features:**
 
