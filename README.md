@@ -128,6 +128,9 @@ You can view the wireframes for both mobile and larger screens [here](docs/wiref
 |  |  |  | |
 | Python version mismatch on Heroku. | Heroku default Python version.  | Specified Python version. | Heroku uses correct Python version. |
 |  |  |  | |
+| Favicon not showing. | Favicons were not in staticfiles used in deployment and the wrong link was in base.html.  | Added .ico link in base.html, ran collectstatic, merged and pushed changes . | Favicon now displays. |
+|  |  |  | |
+
 
 ## Credits
 
