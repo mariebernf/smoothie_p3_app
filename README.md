@@ -252,10 +252,10 @@ At the time of submission, there are no known unresolved bugs affecting the func
 
 ---
 
-**Google Fonts:**
+**Google Fonts:** Montserrat Font from [Google Fonts](https://fonts.google.com/)
 
-**Canva:**
+**Canva:** Wireframe from [Canva](https://www.canva.com/)
 
-**Favicon:**
+**Favicon:** Favicon from [Favicon](https://favicon.io/)
 
-**Font Awsome:**
+**Font Awsome:** Social media icons [Font Awsome](https://fontawesome.com/)
