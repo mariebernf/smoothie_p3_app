@@ -187,7 +187,7 @@ No errors were found.
 
 A screenshot of the validation result is included below.
 
-[W3C Validation Screenshot](validation_reports/validation.png)
+[W3C Validation Screenshot](docs/validation_reports/css_validation.png)
 
 ### Manual Testing
 
