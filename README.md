@@ -167,9 +167,27 @@ Tests were conducted on both mobile and desktop views for key pages to ensure re
 
 Screenshots of the Lighthouse reports can be found here [Lighthouse Reports](./lighthouse_reports.md).
 
-### W3C Markup Validation
+### HTML Validation
 
-### W3C CSS Validator
+The HTML was tested using the W3C Markup Validation Service.
+
+Error showed for an unclosed div in the footer.
+
+The unclosed div in the footer was corrected in the code. However, the warning still appears in the validator. The application displays and functions correctly across all tested pages.
+
+A screenshot of the validation result is included below.
+
+[W3C Validation Screenshot](docs/validation_reports/validation.png)
+
+### CSS Validation
+
+The CSS was tested using the W3C CSS Validation Service.  
+
+No errors were found.
+
+A screenshot of the validation result is included below.
+
+[W3C Validation Screenshot](validation_reports/validation.png)
 
 ### Manual Testing
 
