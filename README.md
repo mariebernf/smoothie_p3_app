@@ -233,6 +233,9 @@ Find the screenshots of the responsive testing here: [Responsive Testing Screens
 | Favicon not showing. | Favicons were not in staticfiles used in deployment and the wrong link was in base.html.  | Added .ico link in base.html, ran collectstatic, merged and pushed changes . | Favicon now displays. |
 |  |  |  | |
 
+## Known Bugs
+
+At the time of submission, there are no known unresolved bugs affecting the functionality of the application.
 
 ## Credits
 
