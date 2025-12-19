@@ -71,8 +71,6 @@ Smoothie model:
 | author       | ForeignKey (User) | Links the smoothie to the user who created it |
 | date_created | DateTimeField     | Automatically stores the creation date        |
 
-
-
 ### Colour Scheme
 
 | Element | Colour | Purpose | 
@@ -207,8 +205,6 @@ A screenshot of the validation result is included below.
 The Home page was tested for responsiveness using browser developer tools. Testing was carried out on, mobile, tablet and desktop screen sizes. On Chrome, Edge and Firefox browsers.
 The layout adapts correctly across all tested screen sizes and browsers. <br>
 Find the screenshots of the responsive testing here: [Responsive Testing Screenshots](docs/responsivescreen/responsive_testing.md).
-
-**Features:**
 
 ## Bugs and Fixes
 
